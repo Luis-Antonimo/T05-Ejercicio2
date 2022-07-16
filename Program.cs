@@ -6,13 +6,13 @@ namespace T05Ejercicio2
     {
         static void Main()
         {
-            Console.WriteLine("¿Cuántos números aleatorios enteros quieres generar?: ");
+            Console.WriteLine("¿Cuántos números aleatorios enteros quieres generar?:");
             int longitud = Convert.ToInt32(Console.ReadLine());
             int[] array = new int[longitud];
             Console.WriteLine("¿Entre que números quieres generarlos?");
-            Console.WriteLine("Escribe valor inicial (inclusive) :");
+            Console.WriteLine("Escribe valor inicial (inclusive):");
             int inicial = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Escribe valor final (inclusive) :");
+            Console.WriteLine("Escribe valor final (inclusive):");
             int final = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
 

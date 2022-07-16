@@ -26,9 +26,8 @@ namespace T05Ejercicio2
         static int GenerarRandom(int inicial, int final)
         {
             Random rnd = new Random();
-            int aleatorio = rnd.Next(inicial, final+1);
+            int aleatorio = rnd.Next(inicial, final + 1);
             return aleatorio;
         }
     }
 }
-
